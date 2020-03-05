@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700,900&display=swap');
 
+/* Initial Setup & Styles forked from: ewuweblab.github.io (Prof P. Colin Manikoth */
+/* Style Guiden 
+  * Primary Color: 
+  * Secondary Color: 
+*/
+
+/* CSS Variables */
+
 body {
     margin: 40px 20px;
     background: #C5C6C7;
@@ -10,9 +18,73 @@ body {
 .MyName {
     font-family: 'Lato', 'Arial Narrow', Arial, sans-serif;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 33px;
     letter-spacing: 2px;
     line-height: 1.5px;
     padding-bottom: 40px;
 }
 
+main { 
+    margin: 0 auto;
+    width: 90%; 
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  main img {
+    max-width: 200px;
+    grid-column: 1 / 1;
+  }
+  
+  
+  /* Mobile 
+    0 to 26em (416 pixels)
+  */
+  @media only screen and (min-width: 0) { 
+      
+    /* Diagnostic Styling. Delete When Done. */
+    body:before {
+         background: yellow;
+         content: "Mobile Size";
+    }
+    
+  }
+  
+  /* Tablet 
+    26em (416 pixels) to 72em (1,152 pixels)
+  */
+  @media only screen and (min-width: 26em)  {
+      
+    /* Diagnostic Styling. Delete When Done. */
+    body:before {
+         background: yellow;
+         content: "Tablet Size";
+    }
+  
+  }
+  
+  /* Desktop 
+     72em (1,152 pixels) to 90em (1440 pixels)
+  */
+  @media screen and (min-width: 72em)  { 
+    
+    /* Diagnostic Styling. Delete When Done. */
+    body:before {
+         background: yellow;
+         content: "Desktop Size";
+    }
+  
+  }
+  
+  /* Wide Desktop: 
+    Greater than 90em (1440px)
+  */
+  @media screen and (min-width: 90em) { 
+    
+    /* Diagnostic Styling. Delete When Done. */
+    body:before {
+         background: yellow;
+         content: "Wide Desktop Size";
+    }
+  
+  }

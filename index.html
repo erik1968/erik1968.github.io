@@ -21,15 +21,69 @@
 
 </head>
 <body>
-   <h1 class="MyName">ERIK STEWART-SMITH</h1> 
-<ul>
-    <li>Design</li>
-    <li>Photography</li>
-    <li>Guitars, Bass, Recording & Mixing</li>
-</ul>
+  
+  <main>
+  
+    <header>
+      <h1 class="MyName">ERIK STEWART-SMITH</h1>  
+    </header>
+  
+    <blockquote>
+      Design without direction = Decoration...
+    </blockquote>
+    
+    <section class="bio">
+      
+        <img src="img/Erik-PortraitPIP-v1-Filtered2.png"
+        
+        alt="ERIK" />
+      
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis reprehenderit cumque magnam, quos cupiditate non alias corporis quisquam expedita iure, nihil veritatis quas. Necessitatibus, voluptatem commodi eum impedit sint distinctio.</p>
+      
+    </section>
+    
+    <footer>
+      <p>&copy; Additional footer info.</p>
 
 
+      <!-- CONTACT FORM -->
+      <form name="My Contact Form" method="POST"
+        data-netlify="true"
+        data-netlify-recaptcha="true">
+        <p>
+          <label>Your Name: 
+            <input type="text" name="name" required/></label>   
+        </p>
+        
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        
+        <p>
+          <label>Message: <textarea name="message" required></textarea></label>
+        </p>
+        
+        <p>
+          <input type="file">
+        </p>
 
+        <div data-netlify-recaptcha="true"></div>
+
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      
+      </form>
+      
+
+
+    </footer>
+    
+  
+    
+
+
+  </main>
+  
 </body>
-
 </html>
