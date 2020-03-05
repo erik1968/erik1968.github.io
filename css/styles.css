@@ -1,12 +1,15 @@
+
 body {
-    background: #474747;
-    color: #f3dc53; 
-    font-family: Arial, Helvetica, sans-serif;
+    background: #C5C6C7;
+    color: #474747; 
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    font-family: 'montserrat', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 600;
+    font-family: 'Barlow Condensed', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 40px;
     letter-spacing: 2px;
     line-height: 1.5px;
+    padding-bottom: 40px;
 }
