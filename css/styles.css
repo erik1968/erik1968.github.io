@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700,900&display=swap');
 
 body {
     margin: 40px 20px;
@@ -7,11 +7,12 @@ body {
     font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
-h1 {
+.MyName {
     font-family: 'Lato', 'Arial Narrow', Arial, sans-serif;
     font-weight: 900;
     font-size: 40px;
     letter-spacing: 2px;
     line-height: 1.5px;
+    padding-bottom: 40px;
 }
 
