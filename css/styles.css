@@ -1,21 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700,900&display=swap');
 
 /* Initial Setup & Styles forked from: ewuweblab.github.io (Prof P. Colin Manikoth */
-/* Style Guiden 
-  * Primary Color: 
-  * Secondary Color: 
+/* Style Guide 
+  * Primary Color: (#some-element {
+  background-color: hsla(170, 50%, 45%, 1);
+})
+  * Secondary Color: (#some-element {
+  background-color: hsla(170, 50%, 45%, 1);
+})
 */
 
 /* CSS Variables */
 
 body {
     margin: 40px 20px;
-    background: #C5C6C7;
-    color: #474747; 
+    background: #474747;
     font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+body img {
+  max-width: 200px;
+  opacity: .5;
+  border-radius: 10px;
+}
+
+.SiteStatus {
+  color: yellow;
 }
 
 .MyName {
+    display: block;
     font-family: 'Lato', 'Arial Narrow', Arial, sans-serif;
     font-weight: 900;
     font-size: 33px;
@@ -24,19 +37,52 @@ body {
     padding-bottom: 40px;
 }
 
-main { 
-    margin: 0 auto;
-    width: 90%; 
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+main {
+  background: #c5c6c7;
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+button {
+  margin-bottom: 20px;
+  padding: 3px 6px;
+  font-weight: 700;
+  color: #4f4f4f;
+  background-color: #c5c6c7;
+  border-radius: 3px;
+}
   
-  main img {
-    max-width: 200px;
-    grid-column: 1 / 1;
-  }
+/* Default List View */
+
+/* Grid View */
+.grid {
+  justify-content: center;
+  align-content: space-around;
+}
+
+.grid figure {
+  margin: 0;
+}
+
+.grid h2,
+.grid figcaption {
+  display: none;
   
-  
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  padding: 40px;
+}  
+
+.footerInfo {
+  position: relative;
+  left: 500px;
+}
   /* Mobile 
     0 to 26em (416 pixels)
   */
