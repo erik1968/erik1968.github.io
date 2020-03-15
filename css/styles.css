@@ -1,136 +1,87 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700,900&display=swap');
+/* My Awesome Styles */
 
-/* Initial Setup & Styles forked from: ewuweblab.github.io (Prof P. Colin Manikoth */
-/* Style Guide 
-  * Primary Color: (#some-element {
-  background-color: hsla(170, 50%, 45%, 1);
-})
-  * Secondary Color: (#some-element {
-  background-color: hsla(170, 50%, 45%, 1);
-})
+/* Diagnostic Styling 
+  * Change Background Color
+  * Outline Elements
+  * Remove when done
 */
 
-/* CSS Variables */
-
-body {
-    margin: 40px 20px;
-    background: #474747;
-    font-family: 'Lato', Arial, Helvetica, sans-serif;
-}
-body img {
-  max-width: 200px;
-  opacity: .5;
-  border-radius: 10px;
+* {
+    outline: 1px dotted black;
 }
 
-.SiteStatus {
-  color: yellow;
+.header{
+  padding: 5px 30px 0px 30px;
+  box-sizing: border-box;
+  float: left;
 }
 
-.MyName {
-    display: block;
-    font-family: 'Lato', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 900;
-    font-size: 33px;
-    letter-spacing: 2px;
-    line-height: 1.5px;
-    padding-bottom: 40px;
+nav{
+  width: 100%;
+  height: 85px;
+  background: #272727;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
-main {
-  background: #c5c6c7;
-  margin: 0 auto;
-  width: 90%;
-  display: flex;
-  flex-wrap: wrap;
-  border-radius: 10px;
-}
-
-button {
-  margin-bottom: 20px;
-  padding: 3px 6px;
-  font-weight: 700;
-  color: #4f4f4f;
-  background-color: #c5c6c7;
-  border-radius: 3px;
-}
-  
-/* Default List View */
-
-/* Grid View */
-.grid {
-  justify-content: center;
-  align-content: space-around;
-}
-
-.grid figure {
+nav ul{
+  display:flex;
   margin: 0;
+  padding: 15px 30px;
+  float: right;
 }
 
-.grid h2,
-.grid figcaption {
-  display: none;
-  
+nav ul li{
+  list-style: none;
 }
 
-footer {
-  display: flex;
-  justify-content: flex-start;
-  padding: 40px;
-}  
-
-.footerInfo {
-  position: relative;
-  left: 500px;
+nav ul li a{
+  display:block;
+  color: white;
+  padding: 0 25px;
+  text-decoration: none;
+  font-weight: bold;
+  line-height:50px;
 }
-  /* Mobile 
-    0 to 26em (416 pixels)
-  */
-  @media only screen and (min-width: 0) { 
-      
-    /* Diagnostic Styling. Delete When Done. */
-    body:before {
-         background: yellow;
-         content: "Mobile Size";
-    }
-    
-  }
-  
-  /* Tablet 
-    26em (416 pixels) to 72em (1,152 pixels)
-  */
-  @media only screen and (min-width: 26em)  {
-      
-    /* Diagnostic Styling. Delete When Done. */
-    body:before {
-         background: yellow;
-         content: "Tablet Size";
-    }
-  
-  }
-  
-  /* Desktop 
-     72em (1,152 pixels) to 90em (1440 pixels)
-  */
-  @media screen and (min-width: 72em)  { 
-    
-    /* Diagnostic Styling. Delete When Done. */
-    body:before {
-         background: yellow;
-         content: "Desktop Size";
-    }
-  
-  }
-  
-  /* Wide Desktop: 
-    Greater than 90em (1440px)
-  */
-  @media screen and (min-width: 90em) { 
-    
-    /* Diagnostic Styling. Delete When Done. */
-    body:before {
-         background: yellow;
-         content: "Wide Desktop Size";
-    }
-  
-  }
+
+nav ul li:hover{
+  background: grey;
+}
+nav ul li.active{
+  background: grey;
+}
+
+
+/******************************
+Main Container/Wrapper
+******************************/
+main {
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/******************************
+Biography
+******************************/
+.bio {
+  text-align: center;
+}
+
+#rando-image {
+ 
+}
+
+/******************************
+Flickity Styling
+******************************/
+/* Style carousel container */
+.carousel {
+  background: grey;
+}
+
+/* Style individual carousel-cell content */
+.carousel .cell {
+  background: gray;
+  width: 100%;
+}

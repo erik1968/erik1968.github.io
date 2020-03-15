@@ -15,154 +15,134 @@
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="theme-color" content="#ffffff">
     
-    <script src="https://kit.fontawesome.com/bd233aba8f.js" crossorigin="anonymous"></script>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900&display=swap" rel="stylesheet"> 
-    
+    <!-- Any Library Styling? -->
+    <link rel="stylesheet" href="css/flickity.css">
+    <link rel="stylesheet" href="css/lightgallery.css">
+
+    <!-- Your Styles -->
     <link rel="stylesheet" href="css/styles.css">
 
-    <title>Erik Stewart-Smith</title>   
+    <title>Analog &#127928;Smith</title>   
 
-</head>
-
-<body>
+  </head>
+  <body class="home">
+    
+    <!-- Minimal Sticky NAV -->
+    <nav>
+      <div class="header">
+          <img src="img/Erik1968_Bolt-Logo.png" width="75px" height="75px" alt="Logo"></div>
+      <ul>
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">SocialNet</a></li>
+          <li><a href="about.html">About</a></li>
+      </ul>
+  </nav>
+    
+    <!-- Wrapper Container -->
+    <main>
   
-  <header>
-    <h2 class="SiteStatus">Site Status: Initial Setup</h2>
-    <h1 class="MyName">ERIK STEWART-SMITH</h1>  
-  </header>
-
-  <blockquote>
-    Design without direction = Decoration...
-  </blockquote>
+      <section class="bio">
   
-  <section class="bio"></section>
-    
-      <img src="img/Erik-PIP_BlkAndWht.png"
-      alt="Erik - Portrait image" />
-    
-    <p class="bio">BIO: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra ornare lacus libero morbi diam nibh.</p>
-    
-  </section>
+      <!-- Splitting Characters -->
+      <h1>Erik Stewart-Smith</h1>
   
-  <button id="trigger">List View / Grid View</button>
+      <!-- Random Image -->
+      <img src="http://placehold.it/200?text=Image 1" 
+          alt="Placholder"
+          id="rando-image">
   
-  <main>  
-
-    <figure>
-      <h2>Title</h2>
-      <img src="http://picsum.photos/300" alt="">
-      <figcaption>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      </figcaption>
-    </figure>
+      <p>Hello! My name is Erik and I'm a design student at Eastern Washington University</p>
     
-    <figure>
-      <h2>Title</h2>
-      <img src="http://picsum.photos/300" alt="">
-      <figcaption>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      </figcaption>
-    </figure>
-    
-    
-      <figure>
-      <h2>Title</h2>
-      <img src="http://picsum.photos/300" alt="">
-      <figcaption>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      </figcaption>
-    </figure>
-    
-    
-      <figure>
-      <h2>Title</h2>
-      <img src="http://picsum.photos/300" alt="">
-      <figcaption>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      </figcaption>
-    </figure>
-    
-    
-      <figure>
-      <h2>Title</h2>
-      <img src="http://picsum.photos/300" alt="">
-      <figcaption>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      </figcaption>
-    </figure>
-    
-    
-      <figure>
-      <h2>Title</h2>
-      <img src="http://picsum.photos/300" alt="">
-      <figcaption>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      </figcaption>
-    </figure>
-    
-    
-      <figure>
-      <h2>Title</h2>
-      <img src="http://picsum.photos/300" alt="">
-      <figcaption>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      </figcaption>
-    </figure>
-    
-    
-      <figure>
-      <h2>Title</h2>
-      <img src="http://picsum.photos/300" alt="">
-      <figcaption>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      </figcaption>
-    </figure>
-    
-  </main>
-
-    <footer>
-
-      <!-- CONTACT FORM -->
-      <form name="My Contact Form" method="POST"
-        data-netlify="true"
-        data-netlify-recaptcha="true">
-        <p>
-          <label>Your Name: 
-            <input type="text" name="name" required/></label>   
-        </p>
-        
-        <p>
-          <label>Your Email: <input type="email" name="email" /></label>
-        </p>
-        
-        <p>
-          <label>Message: <textarea name="message" required></textarea></label>
-        </p>
-        
-        <p>
-          <input type="file">
-        </p>
-
-        <div data-netlify-recaptcha="true"></div>
-
-        <p>
-          <button type="submit">Send</button>
-        </p>
+    </section>
       
-      </form>
-      
-      <p class="footerInfo">&copy; Additional footer info.</p>
-
-    </footer>
-    
-
-
-  </main>
-  <!-- GSAP Libraries -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src=" https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js"></script>
-   <!-- My Scripts -->
-  <script src="js/scripts.js"></script>  
-</body>
-</html>
+      <!-- Slider/Carousel -->
+      <aside class="carousel">
+  
+          <section class="cell">
+            
+            <!-- Your Content -->
+            <h3><a href="https://erik1968.github.io/google-doodle/">Google Doodle</a></h3>
+            <p>Google Doodle project for Web 2, Winter 2020</p>
+          
+          </section>
+          
+          <section class="cell">
+            
+            <h3><a href="https://erik1968.github.io/movie-trailer/">Movie-Trailer</a></h3>
+            <p>Movie Trailer project for Web 2, Winter 2020</p>
+          
+          </section>
+          
+          <section class="cell">
+            
+            <h3><a href="https://analogsmith-xyz-dffb39.webflow.io/">First Website</a></h3>
+            <p>My first website, designed in Webflow for Web 1, Spring 2019</p>
+          
+          </section>  
+        
+      </aside>
+  
+      <!-- Lightbox Gallery -->
+      <div id="galleryContainer">
+        
+        <h3>Portfolio</h3>
+  
+        <a href="img/fullsize/fullsize-1.png">
+          <img src="img/thumbs/thumb-1.png" alt="Thumbnail">
+        </a>
+  
+        <a href="img/fullsize/fullsize-2.png">
+          <img src="img/thumbs/thumb-2.png" alt="Thumbnail">
+        </a>
+  
+        <a href="img/fullsize/fullsize-3.png">
+          <img src="img/thumbs/thumb-3.png" alt="Thumbnail">
+        </a>
+  
+      </div>
+  
+      <!-- Contact Form -->
+      <footer>
+  
+        <h3>Contact</h3>
+  
+        <form name="contact"
+              method="POST" 
+              data-netlify="true"
+              data-netlify-recaptcha="true">
+          <p>
+            <label>Your Name: <input type="text" name="name" /></label>   
+          </p>
+          <p>
+            <label>Your Email: <input type="email" name="email" /></label>
+          </p>
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <div data-netlify-recaptcha="true"></div>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
+        
+  
+      </footer>
+  
+    </main>
+  
+  
+    <!-- JS Libraries -->
+    <script src="js/flickity.js"></script>
+    <script src="js/splitting.js"></script>
+    <script src="js/lightgallery.js"></script>
+  
+    <!-- Optional Plugins for JS Libraries -->
+  
+    <!-- My Scripts. Always last. -->
+    <script src="js/scripts.js"></script>
+  
+  </body>
+  </html>
