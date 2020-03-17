@@ -1,5 +1,11 @@
 /* My Awesome Styles */
 
+/* My Fonts */
+
+/* Font: Acumin - very versatile and neutral in appearance + tone; 32 styles w/condensed & wide */
+@import url("https://use.typekit.net/jgu1pak.css");
+
+
 /* Diagnostic Styling 
   * Change Background Color
   * Outline Elements
@@ -37,6 +43,7 @@ nav ul li{
 }
 
 nav ul li a{
+  font-family: 'Acumin Pro SemiCondensed', Arial, Helvetica, sans-serif;
   display:block;
   color: white;
   padding: 0 25px;
@@ -64,8 +71,9 @@ main {
 /******************************
 Biography
 ******************************/
-.bio {
+.bio, .hello {
   text-align: center;
+  font-family: 'Acumin Pro', Arial, Helvetica, sans-serif;
 }
 
 #rando-image {
@@ -78,6 +86,8 @@ Flickity Styling
 /* Style carousel container */
 .carousel {
   background: grey;
+  font-family: 'Acumin Pro', Arial, Helvetica, sans-serif;
+  font-size: 1rem;
 }
 
 /* Style individual carousel-cell content */
