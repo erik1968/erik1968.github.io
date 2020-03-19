@@ -74,6 +74,11 @@ Biography
 .bio, .hello {
   text-align: center;
   font-family: 'Acumin Pro', Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.bio {
+  font-weight: 600;  
 }
 
 #rando-image {
