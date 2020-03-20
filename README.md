@@ -1,8 +1,6 @@
 # Web 2 - erik1968.github.io
 ERIK STEWART-SMITH
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=github.com/ewuweblab/web-2-final-example)
-
 ## BIO
 I live in Spokane, WA & study graphic design at Eastern Washington University.
 
@@ -17,16 +15,22 @@ I live in Spokane, WA & study graphic design at Eastern Washington University.
         Life is so much better with design...
 
 ## Style Tile
+[Figma Style Tiles]
+(https://www.figma.com/file/aKMb7g2kNQihCillSGY3MR/Web2-Final-Project?node-id=0%3A1)
 
 ### Colors
-Primary Color:
-Secondary Color:
+Primary Colors: Dark Grey #272727 | Light Blue #81DEFD | Light Orange #FFB088
+Secondary Colors: Light Grey #C5C6C7 | Lighter Orange #FFE8D9 | Lighter Blue #E3F8FF
 
 ### Typography
-Primary Font:
-Secondary Font:
+Primary Font: Acumin Pro Condensed, SemiCondensed 
+Secondary Font: Oswald Bold (Heads)
 
 ## References
 Normalize
-Google / Adobe Fonts listed here..
+@import url("https://use.typekit.net/jgu1pak.css"); ACUMIN PRO
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap'); OSWALD
 
+CONTACT FORM: I forked a pen from account: @lazy13, pen titled: "Simple Contact Form layout" and just adapted it to my layout. It's perfect and 'liked' it :)
+
+JAVASCRIPT, FLICKITY CAROSEL AND LIGHTGALLERY: All credits for these go to Prof Colin Manikoth, Web & UX Design Professor, Vis Comm Design at Eastern Washington University
