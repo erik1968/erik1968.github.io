@@ -6,18 +6,6 @@
 @import url("https://use.typekit.net/jgu1pak.css");
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
 
-
-/* Diagnostic Styling 
-  * Change Background Color
-  * Outline Elements
-  * Remove when done
-*/
-
-
-* {
-    outline: 1px dotted black;
-} 
-
 body {
   background: #5ED0FA;
 }
