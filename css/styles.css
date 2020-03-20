@@ -31,12 +31,21 @@ Biography
   box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
+.hello {
+  font-weight: 300;
+  max-width: 500px;
+  margin: 0 auto;
+  line-height: 1.5;
+  letter-spacing: .2px;
+}
+
 .bio, .hello {
   border-radius: 3px;
   text-align: center;
   font-family: 'Acumin Pro Condensed', Arial, Helvetica, sans-serif;
   font-size: rem;
-
+  background: #272727;
+  color: white;
 }
 
 .bio {
@@ -116,7 +125,7 @@ Porfolio Gallery
   max-width: 100%;
   padding-top: 50px;
   border-radius: 3px;
-  
+  padding-bottom: 30px;
 }
 
 .folioImgs {
@@ -129,6 +138,7 @@ Porfolio Gallery
 Footer + Contact Form
 ******************************/
 .contactH2 {
+
   border-radius: 3px;
   text-align: center;
   padding: 8px 10px 10px 10px;
@@ -142,7 +152,6 @@ Footer + Contact Form
 footer {
   border-radius: 3px;
   width: 100%;
-  padding-top: 30px;
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
   font-weight: 300;
   background: #D0E4F5 url("/img/BlkNWhtCheckers_NEW.png") repeat fixed 100% 100%;
