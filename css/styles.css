@@ -82,7 +82,7 @@ Flickity Styling
 
 /* Style individual carousel-cell content */
 .carousel .cell {
-  background: #f1f1f1;
+  background: #FFD0B5;
   width: 100%;
   height: 20vh;
   border-radius: 3px;
@@ -92,6 +92,20 @@ Flickity Styling
   max-width: 100%;
   height: 20vh;
   border-radius: 3px;
+}
+
+.flickity-button {
+  color: #F9703E;
+  background-color: #5ED0FA;
+}
+
+.flickity-page-dots .dot  {
+  color: #F9703E;
+  background-color: #F9703E;
+}
+
+.flickity-page-dots .dot.is-selected {
+  color: #F9703E;
 }
 
 /******************************
