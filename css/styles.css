@@ -42,7 +42,9 @@ Biography
 }
 
 .bio {
-  font-weight: 600;  
+  background: #D0E4F5 url("https://www.dropbox.com/s/vqglvab9cyubmct/AbstractDiamondPattern_BigLewbowski.png?raw=1") no-repeat scroll 50% 50%;
+  font-weight: 600;
+  margin-bottom: 50px;  
 }
 
 #rando-image {
@@ -54,10 +56,11 @@ Flickity Styling
 ******************************/
 /* Style carousel container */
 .carousel {
+  margin: 0 auto;
   background: #f1f1f1;
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
-
+  max-width: 40%;
 }
 
 /* Style individual carousel-cell content */
@@ -68,8 +71,9 @@ Flickity Styling
   
 }
 
-.CaroselInfo {
-  font-size: ;
+.carouselIMGs {
+  max-width: 100%;
+  height: 20vh;
 }
 
 /******************************
