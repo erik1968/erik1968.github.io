@@ -13,15 +13,7 @@ ERIK STEWART-SMITH
         
         Visually, I explore photography so much I plan to use it in freelance work.
         
-        Life is so much better with design..Design is really my 2nd career as I did 20 years in the Air Force doing IT called Cyber Systems Operations.
-        
-        After I retired, it was time to try something new & creative. Now that I'm designing at EWU--I can't wait to graduate!
-        
-        Creatively, music is a big inspiration. To get motivated I just play my guitars!
-        
-        Visually, I explore photography so much I plan to use it in freelance work.
-        
-        Life is so much better with design..
+        Life is so much better with design...
 
 ## Style Tile
 [Figma Style Tiles]
