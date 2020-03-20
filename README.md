@@ -3,19 +3,18 @@ ERIK STEWART-SMITH
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=github.com/ewuweblab/web-2-final-example)
 
-## Requirements
-* Add your Content
-* Add your Designs
-* Bio
-* Image
-* Portfolio with at least 3 items
-* Setup Contact Form
-
 ## BIO
-Put 50+ word biography here. Suggested items are: major, career goals, experience and interests..
+I live in Spokane, WA & study graphic design at Eastern Washington University.
 
-"I am currently studying Graphic, Web & User Experience design at Eastern Washington University, Spokane, Washington...FINISH AND PUT IN ABOUT PAGE
-
+        Design is really my 2nd career as I did 20 years in the Air Force doing IT called Cyber Systems Operations.
+        
+        After I retired, it was time to try something new & creative. Now that I'm designing at EWU--I can't wait to graduate!
+        
+        Creatively, music is a big inspiration. To get motivated I just play my guitars!
+        
+        Visually, I explore photography so much I plan to use it in freelance work.
+        
+        Life is so much better with design...
 
 ## Style Tile
 
