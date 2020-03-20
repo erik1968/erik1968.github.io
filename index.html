@@ -30,31 +30,20 @@
   </head>
   <body class="home">
     
-    <!-- Minimal Sticky NAV -->
-    <nav>
-      <div class="header">
-          <img src="https://www.dropbox.com/s/1igim4zxlogxkc7/AS_BoltLogo-GreyScale.PNG?raw=1" width="75px" height="75px" alt="Logo"></div>
-      <ul>
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">SocialNet</a></li>
-          <li><a href="about.html">About</a></li>
-      </ul>
-  </nav>
-    
     <!-- Wrapper Container -->
     <main>
   
       <section class="bio">
   
-      <!-- Splitting Characters -->
-      <h1>Erik Stewart-Smith</h1>
+      <!-- Page Heading -->
+      <h1>ERIK STEWART-SMITH</h1>
   
       <!-- Random Image -->
       <img src="http://placehold.it/200?text=Image 1" 
           alt="Placholder"
           id="rando-image">
   
-      <p class="hello">Hello! My name is Erik and I'm a design student at Eastern Washington University</p>
+      <p class="hello">Hello and thanks for visiting! </p>
     
     </section>
       
@@ -88,7 +77,7 @@
       <!-- Lightbox Gallery -->
       <div id="galleryContainer">
         
-        <h3>Portfolio</h3>
+        <h2 class="portfolioH2">PORTFOLIO</h2>
   
         <a href="img/fullsize/fullsize-1.png">
           <img src="img/thumbs/thumb-1.png" alt="Thumbnail">
@@ -107,36 +96,21 @@
       <!-- Contact Form -->
       <footer>
   
-        <h3>Contact</h3>
-  
-        <form name="contact"
-              method="POST" 
-              data-netlify="true"
-              data-netlify-recaptcha="true">
-          <p>
-            <label>Your Name: <input type="text" name="name" /></label>   
-          </p>
-          <p>
-            <label>Your Email: <input type="email" name="email" /></label>
-          </p>
-          <p>
-            <label>Message: <textarea name="message"></textarea></label>
-          </p>
-          <div data-netlify-recaptcha="true"></div>
-          <p>
-            <button type="submit">Send</button>
-          </p>
-        </form>
-        
+      <h2 class="contactH2">CONTACT</h3>
+
+      <form action="" method="post">
+          <input type="text" name="name" placeholder="Name" />
+          <input type="email" name="email" placeholder="Email" />
+          <textarea name="message" placeholder="Message"></textarea> 
+          <input type="submit" value="Submit" class="submit"/>  
+      </form>              
   
       </footer>
   
     </main>
   
-  
     <!-- JS Libraries -->
     <script src="js/flickity.js"></script>
-    <script src="js/splitting.js"></script>
     <script src="js/lightgallery.js"></script>
   
     <!-- Optional Plugins for JS Libraries -->

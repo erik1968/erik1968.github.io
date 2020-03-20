@@ -2,8 +2,9 @@
 
 /* My Fonts */
 
-/* Font: Acumin - very versatile and neutral in appearance + tone; 32 styles w/condensed & wide */
+/* Fonts: Acumin and Oswald */
 @import url("https://use.typekit.net/jgu1pak.css");
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
 
 
 /* Diagnostic Styling 
@@ -12,9 +13,10 @@
   * Remove when done
 */
 
+
 * {
     outline: 1px dotted black;
-}
+} 
 
 .header{
   padding: 5px 30px 0px 30px;
@@ -22,10 +24,12 @@
   float: left;
 }
 
-nav{
+nav {
+  display: flex;
+  justify-content: space-around;
   width: 100%;
   height: 85px;
-  background: grey;
+  background: #f1f1f1;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -43,13 +47,13 @@ nav ul li{
 }
 
 nav ul li a{
-  font-family: 'Acumin Pro SemiCondensed', Arial, Helvetica, sans-serif;
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
   display:block;
-  color: white;
+  color: #272727;
   padding: 0 25px;
   text-decoration: none;
-  font-weight: bold;
-  line-height:50px;
+  font-weight: 500;
+  line-height: 50px;
 }
 
 nav ul li:hover{
@@ -58,7 +62,6 @@ nav ul li:hover{
 nav ul li.active{
   background: grey;
 }
-
 
 /******************************
 Main Container/Wrapper
@@ -73,8 +76,8 @@ Biography
 ******************************/
 .bio, .hello {
   text-align: center;
-  font-family: 'Acumin Pro', Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
+  font-family: 'Acumin Pro Condensed', Arial, Helvetica, sans-serif;
+  font-size: rem;
 }
 
 .bio {
@@ -82,7 +85,7 @@ Biography
 }
 
 #rando-image {
- max-width: 300px;
+ max-width: 200px;
 }
 
 /******************************
@@ -97,35 +100,70 @@ Flickity Styling
 
 /* Style individual carousel-cell content */
 .carousel .cell {
-  background: gray;
+  background: #f1f1f1;
   width: 100%;
 }
 
 /******************************
 Porfolio Gallery
 ******************************/
+  .portfolioH2 {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  }
+
 #galleryContainer {
-  font-family: 'Acumin Pro', Arial, Helvetica, sans-serif;
+  max-width: 100%;
   padding-top: 50px;
 }
 
 /******************************
 Footer + Contact Form
 ******************************/
-footer {
-  width: 100%;
-  float: left;
-  padding-top: 30px;
-  font-family: 'Acumin Pro', Arial, Helvetica, sans-serif;
+.contactH2 {
+  text-align: center;
 }
 
-form {
-  background-color:grey;
-	padding-left:35px;
-	padding-right:35px;
-	padding-top:35px;
-	padding-bottom:50px;
-	width: 450px;
-	float: left;
-	position: absolute;
+footer {
+  width: 100%;
+  padding-top: 30px;
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+form{
+  max-width:350px;
+  margin: 0 auto;
+}
+input,textarea{
+  display: block;
+  width:89%;
+  padding: 10px 5%;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;  
+}
+textarea{
+  height: 150px;  
+}
+textarea:focus, input:focus, button{
+    outline: 0;
+}
+.submit{
+  border-radius: 5px;
+  background-color: #ccc;
+  color: #fff;
+  border: 0;
+  padding: 5px 0;
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+}
+.submit:hover{
+  background-color: #fff;
+  color: #ccc;
+  border: 2px solid #ccc;  
 }

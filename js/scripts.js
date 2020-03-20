@@ -31,13 +31,6 @@ const slideContainer = document.querySelector('.carousel');
 var flkty = new Flickity( slideContainer );
 
 /******************************
-Splitting JS
-******************************/
-Splitting({
-  target: 'h1'
-});
-
-/******************************
 Light Gallery JS
 ******************************/
 const galleryContainer = document.getElementById('galleryContainer');
