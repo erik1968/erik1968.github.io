@@ -1,0 +1,23 @@
+body {
+    background: #D0E4F5 url("/img/BlkNWhtCheckers_NEW.png") repeat fixed 100% 100%; 
+}
+
+
+.Fail {
+    margin-top: 20px;
+    border: solid 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+p {
+
+width: 500px;
+padding: 50px;
+background-color: #272727;
+border-radius: 10px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+}
+
