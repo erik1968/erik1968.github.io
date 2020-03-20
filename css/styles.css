@@ -1,8 +1,7 @@
 /* My Awesome Styles */
 
-/* My Fonts */
+/* My Fonts Acumin and Oswald */
 
-/* Fonts: Acumin and Oswald */
 @import url("https://use.typekit.net/jgu1pak.css");
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
 
@@ -141,7 +140,6 @@ Porfolio Gallery
 Footer + Contact Form
 ******************************/
 .contactH2 {
-
   border-radius: 3px;
   text-align: center;
   padding: 8px 10px 10px 10px;
