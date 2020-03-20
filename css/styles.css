@@ -22,8 +22,10 @@ main {
 Biography
 ******************************/
 .heading {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
   border-radius: 3px;
-  padding: 10px 10px 5px 10px;
+  padding: 17px 17px 22px 17px;
+  font-size: 2.5rem;
   background: #272727;
   color: white;
   letter-spacing: 3px;
@@ -43,8 +45,8 @@ Biography
 .bio, .hello {
   border-radius: 3px;
   text-align: center;
-  font-family: 'Acumin Pro Condensed', Arial, Helvetica, sans-serif;
-  font-size: rem;
+  font-family: 'Acumin Pro SemiCondensed', Arial, Helvetica, sans-serif;
+  font-size: 1rem;
   background: #272727;
   color: white;
 }
