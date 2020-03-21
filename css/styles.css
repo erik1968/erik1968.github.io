@@ -34,17 +34,17 @@ Biography
 }
 
 .hello {
-  padding: 20px;
+  text-align: justify;
+  padding: 25px;
   font-weight: 300;
-  max-width: 535px;
+  max-width: 545px;
   margin: 0 auto;
-  line-height: 1.5;
+  line-height: 1.6;
   letter-spacing: .3px;
 }
 
 .bio, .hello {
   border-radius: 5px;
-  text-align: center;
   font-family: 'Acumin Pro SemiCondensed', Arial, Helvetica, sans-serif;
   font-size: 1.04sem;
   background: #272727;
@@ -52,6 +52,7 @@ Biography
 }
 
 .bio {
+  text-align: center;
   border-radius: 5px;
   background: #D0E4F5 url("/img/BlkNWhtCheckers_NEW.png") repeat fixed 100% 100%;
   font-weight: 600;
