@@ -7,6 +7,7 @@
 
 body {
   background: #5ED0FA;
+  margin: 15px;
 }
 
 /******************************
@@ -38,14 +39,14 @@ Biography
   max-width: 500px;
   margin: 0 auto;
   line-height: 1.5;
-  letter-spacing: .2px;
+  letter-spacing: .3px;
 }
 
 .bio, .hello {
   border-radius: 5px;
   text-align: center;
-  font-family: 'Acumin Pro SemiCondensed', Arial, Helvetica, sans-serif;
-  font-size: 1rem;
+  font-family: 'Acumin Pro Condensed', Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
   background: #272727;
   color: white;
 }
@@ -68,6 +69,7 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 Flickity Styling
 ******************************/
 /* Style carousel container */
+
 .carousel {
   border-radius: 5px;
   margin: 0 auto;
