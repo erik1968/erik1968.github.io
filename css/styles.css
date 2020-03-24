@@ -101,9 +101,9 @@ Flickity Styling
 }
 
 .CaroselInfo {
-  padding-bottom: 3px;
-  color: #F9703E;
-background: #5ED0FA;
+  padding-bottom: 4px;
+  color: #FFB088;
+background: #0B69A3;
 line-height: 1.25;
 text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
 }
