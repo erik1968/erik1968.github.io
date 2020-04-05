@@ -16,6 +16,8 @@ Main Container/Wrapper
 main {
   margin: 0 auto;
   padding-top: 3.5em;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
   padding-bottom: 6em;
 }
 
