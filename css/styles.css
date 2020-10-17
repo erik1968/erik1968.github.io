@@ -40,7 +40,7 @@ Biography
   text-align: justify;
   padding: 25px;
   font-weight: 300;
-  max-width: 545px;
+  max-width: 650px;
   margin: 0 auto;
   line-height: 1.6;
   letter-spacing: .3px;
@@ -49,7 +49,7 @@ Biography
 .bio, .hello {
   border-radius: 5px;
   font-family: 'Acumin Pro SemiCondensed', Arial, Helvetica, sans-serif;
-  font-size: 1.04sem;
+  font-size: 1.15rem;
   background: #272727;
   color: white;
 }
